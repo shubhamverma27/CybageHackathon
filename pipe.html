@@ -132,7 +132,7 @@
     <a class="waves-effect waves-light btn red">Start</a>
         </div>
     <div id="btn1"  onclick="abc()">
-    <a class="waves-effect waves-light btn red">now</a>
+    <a class="waves-effect waves-light btn red">Notify</a>
         </div>
       
          <div id="modal" class="animated slideInUp">
@@ -184,7 +184,7 @@
              
     <script src="js/hallooou.js"></script>
          
-         
+  <iframe id="some_name" name="some_name" style="display:none ; position:absulote; z-index:-100"></iframe>       
          
     </div>
     
@@ -192,11 +192,13 @@
     <div id="modal1" class="animated slideInLeft">
          <i class="fa fa-close fa-3x closed" onclick="bcd()" ></i>
         
-  <input id="texted" type="text" name="firstname">
-        
-        <div id="btn2"  onclick="send()">
-    <a class="waves-effect waves-light btn red">Submit</a>
-        </div> 
+<div id="formed">
+    
+<form id = "form" name = "form" action="http://192.168.195.101/new.php" method = "post" target="some_name">
+<input type='text' name='name' id='name'>
+<input id="sente" class="btn red" type='submit' value='Send'>
+</form>
+    </div>
   </div>
           
 

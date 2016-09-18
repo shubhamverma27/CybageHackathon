@@ -47,6 +47,21 @@ body {
     border-radius: 5px;
     border: 2px solid black;
 }
+
+#formed{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    height: 60%;
+    width: 60%;
+}
+#sente{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+
 #sub1in{
     background-color: #0063C6;
     width: 100%;
@@ -525,14 +540,18 @@ body {
 }
 #btn1{
     position: absolute;
-    top: 60%;
-    left: 20%;
+    top: 18%;
+    left: 6%;
 }
 .btn1{
     color: black;
 
 }
-
+.fa-glass{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
 #modal
 {
     position: absolute;

@@ -11,7 +11,7 @@
 	$.ajax({
       
 				type: "GET",
-				url: "http://192.168.43.241/index.php",
+				url: "http://192.168.195.101/index.php",
 				data: dataString,
                	cache: false,
 				success: function(data) {
@@ -39,20 +39,7 @@
             
 }, 1000);
                    
-                   
-                   
-function send(){
-    
-    document.getElementById("modal1").style.display="none";
-    
-    var txtfile="home/pridhvi/Documents/txt.txt";
-    var file=new File(txtfile);
-    file.open("w");
-    var str=document.getElementById("texted").value;
-    file.writeln(str);
-    file.close();
-    
-}              
+                            
               
          
     
